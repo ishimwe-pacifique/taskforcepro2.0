@@ -1,0 +1,46 @@
+2025-01-18 18:41:27.110 [main] INFO  c.g.yildizmy.EWalletApplicationTests - Starting EWalletApplicationTests using Java 21.0.5 with PID 24492 (started by User in C:\Users\User\Desktop\backend)
+2025-01-18 18:41:27.110 [main] DEBUG c.g.yildizmy.EWalletApplicationTests - Running with Spring Boot v3.0.4, Spring v6.0.6
+2025-01-18 18:41:27.110 [main] INFO  c.g.yildizmy.EWalletApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-01-18 18:41:33.529 [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.5.1 by Redgate
+2025-01-18 18:41:33.529 [main] INFO  o.f.c.i.license.VersionPrinter - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2025-01-18 18:41:33.537 [main] INFO  o.f.c.i.license.VersionPrinter - 
+2025-01-18 18:41:33.628 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-18 18:41:34.536 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63f1d374
+2025-01-18 18:41:34.544 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-18 18:41:34.703 [main] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/wallet (PostgreSQL 16.2)
+2025-01-18 18:41:34.725 [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-01-18 18:41:34.920 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.149s)
+2025-01-18 18:41:35.028 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+2025-01-18 18:41:35.029 [main] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-01-18 18:41:36.848 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-01-18 18:41:44.632 [main] INFO  c.g.yildizmy.EWalletApplicationTests - Started EWalletApplicationTests in 19.398 seconds (process running for 24.43)
+2025-01-18 18:41:46.669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-18 18:41:46.679 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-18 18:42:11.062 [restartedMain] INFO  c.github.yildizmy.EWalletApplication - Starting EWalletApplication using Java 21.0.5 with PID 18444 (C:\Users\User\Desktop\backend\target\classes started by User in C:\Users\User\Desktop\backend)
+2025-01-18 18:42:11.064 [restartedMain] DEBUG c.github.yildizmy.EWalletApplication - Running with Spring Boot v3.0.4, Spring v6.0.6
+2025-01-18 18:42:11.067 [restartedMain] INFO  c.github.yildizmy.EWalletApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-18 18:42:14.016 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-18 18:42:14.017 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-01-18 18:42:14.099 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-18 18:42:14.279 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.5.1 by Redgate
+2025-01-18 18:42:14.281 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+2025-01-18 18:42:14.281 [restartedMain] INFO  o.f.c.i.license.VersionPrinter - 
+2025-01-18 18:42:14.298 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-18 18:42:14.596 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e7453be
+2025-01-18 18:42:14.598 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-18 18:42:14.630 [restartedMain] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:postgresql://localhost:5432/wallet (PostgreSQL 16.2)
+2025-01-18 18:42:14.640 [restartedMain] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2025-01-18 18:42:14.701 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.041s)
+2025-01-18 18:42:14.772 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 5
+2025-01-18 18:42:14.773 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2025-01-18 18:42:15.556 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-01-18 18:42:17.271 [restartedMain] DEBUG c.g.y.security.AuthTokenFilter - Filter 'authTokenFilter' configured for use
+2025-01-18 18:42:17.273 [restartedMain] DEBUG c.g.y.security.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+2025-01-18 18:42:19.593 [restartedMain] INFO  c.github.yildizmy.EWalletApplication - Started EWalletApplication in 9.204 seconds (process running for 10.428)
+2025-01-18 18:42:19.608 [restartedMain] INFO  EWalletApplication - 
+-------------------------------------------------------
+Application 'e-wallet' is running! Access URLs:
+Local:      http://localhost:8080/
+External:   http://192.168.62.252:8080/
+Profile(s): 
+-------------------------------------------------------
